@@ -1,0 +1,45 @@
+Html {box-sizing:border-box;}
+*, *::before, *::after {box-sizing:inherit}
+
+.container{
+    width: 500px;
+    font-family: Helvetica, sans-serif;
+    margin: auto;
+    border: 1px solid rgb(123, 197, 207);
+
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.sec{
+    font-family: Helvetica, sans-serif;
+    background: rgb(88, 195, 211);
+    font-size: 25px;
+    padding: 5px;
+    border: 1px solid rgb(123, 197, 207);
+}
+
+.sec:hover{
+    background: rgb(97, 215, 233);
+}
+
+
+
+.sectext{
+    font-family: Helvetica, sans-serif;
+    color: black;
+    height: 0px;
+    font-size: 12px;
+    border: 1px solid rgb(123, 197, 207);
+    transition: height 1s ease, padding .2s ease;
+    overflow: hidden;
+
+}
+
+.show{
+    height: 90px;
+    padding: 20px 10px 0px;
+}
